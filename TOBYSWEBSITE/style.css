@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&display=swap');
+
+@font-face {
+    font-family: 'syndicate';
+   src: url('assets/syndicate Regular-SVG.otf') format('otf');
+}
+
+* {
+    padding: 0%;      
+    margin: 0%;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    display: inline-block;
+
+}
+
+#about {
+    position: absolute;
+    left: 0%;
+    display: none;
+    font-weight: 200;
+    width: 100%;
+    height: 100%;
+    font-size: 6vh;
+}
+
+#about a {
+    color: red;
+    text-decoration: none;
+}
+
+
+body, html{
+    height: 100%;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+#email {
+    font-size: 7vw;
+}
+
+.link {
+    transition: color 1s, transform 1s, letter-spacing 0.5s;
+    /* transition: transform 0.5s; */
+
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 7vw;
+    
+}
+
+.link:hover {
+    color: yellow;
+    letter-spacing: 4px;
+
+}
+
+#main-container {
+    /* display: block; */
+    /* text-align: center; */
+    padding-left: 2%;
+}
+
+div {
+    width: 100%;
+}
+
+
+
+#graphic-container {
+    display: none;
+    padding-left: 5%;
+}
+
+#web-container {
+    display: none;
+    padding-left: 5%;
+
+
+}
+
+.secondary-link {
+    transition: color 0.5s, transform 1s, letter-spacing 1s;
+    font-size: 5vh;
+    color: white;
+    text-decoration: none;
+}
+
+.secondary-link:hover {
+    letter-spacing: 1px;
+}
+
+
+  /* **** MET STYLING **** */
+
+  .divider {
+      width: 100%;
+      color: white;
+  }
+
+  #met-info {
+      text-align: center;
+      font-size: 5vw;
+      font-weight: 200;
+  }
+
+  #term-one {
+      text-align: center;
+  }
+
+  #met-title {
+      text-align: center;
+      font-size: 5vw;
+      letter-spacing: 10px;
+
+  }
+
+  #back-link{
+      position: fixed;
+      left: 2%;
+      top: 80%;
+  }
+
+  #back-arrow {
+      width: 50%;
+  }
+
+  /* ******* MEDIA QUERIES ******** */
+
+  @media only screen and (max-width: 600px) {
+      #met-info {
+          font-size: 7vw;
+      }
+
+
+      #back-link{
+          top: 90%;
+      }
+
+      #back-arrow{
+          width: 40%;
+      }
+  }
+
+  @media only screen and (min-width: 600px) {
+      
+
+  }
+
+  
+  @media only screen and (min-width: 750px) {
+      
+}
+
+
+@media only screen and (min-width: 992px) {
+    #about {
+        font-size: 6vw;
+    }
+      
+}
+
